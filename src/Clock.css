@@ -1,0 +1,41 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.timer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  border: 3px solid #000;
+  position: relative;
+  top: 200px;
+  width: 80%;
+  min-height: 500px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.timer,
+.stop-timer {
+  position: relative;
+  bottom: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.clock,
+.stop-clock {
+  margin-top: 20px;
+  font-size: 60px;
+}
+.stop-clock {
+  color: red;
+}
+
+.stop-timer {
+  background-color: rgb(66, 65, 65);
+  color: #ffffff;
+}
